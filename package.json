@@ -1,0 +1,20 @@
+{
+  "name": "vue-multiselect-browserify-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvanwijk/vue-multiselect-browserify-example.git"
+  },
+  "keywords": [],
+  "author": "Frank van Wijk <fvanwijk@xebia.com> (http://www.frankvanwijk.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvanwijk/vue-multiselect-browserify-example/issues"
+  },
+  "homepage": "https://github.com/fvanwijk/vue-multiselect-browserify-example#readme"
+}
