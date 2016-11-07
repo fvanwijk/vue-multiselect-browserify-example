@@ -11,9 +11,7 @@
 </template>
 
 <script>
-import Vue from 'vue';
 import MultiSelect from 'vue-multiselect/lib/Multiselect.vue';
-Vue.component('multiSelect', MultiSelect);
 
 export default {
   name: 'app',
