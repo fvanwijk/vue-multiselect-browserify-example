@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify -t babelify -t vueify -e index.js -o bundle.js",
+    "dev": "watchify -t babelify -t vueify -e index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
