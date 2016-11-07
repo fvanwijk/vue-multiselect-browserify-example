@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -t babelify -t vueify -e index.js -o bundle.js",
-    "dev": "watchify -t babelify -t vueify -e index.js -o bundle.js"
+    "build": "browserify -g vueify -g babelify -e index.js -o bundle.js",
+    "dev": "watchify -g vueify -g babelify -e index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
