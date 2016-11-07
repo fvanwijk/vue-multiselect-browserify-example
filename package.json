@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/fvanwijk/vue-multiselect-browserify-example/issues"
   },
-  "homepage": "https://github.com/fvanwijk/vue-multiselect-browserify-example#readme"
+  "homepage": "https://github.com/fvanwijk/vue-multiselect-browserify-example#readme",
+  "dependencies": {
+    "vue": "2.0.5",
+    "vue-multiselect": "2.0.0-beta.10"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.18.0",
+    "babelify": "7.3.0",
+    "browserify": "13.1.1",
+    "vueify": "9.2.4"
+  }
 }
