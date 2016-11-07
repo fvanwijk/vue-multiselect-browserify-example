@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -g vueify -g babelify -e index.js -o bundle.js",
-    "dev": "watchify -g vueify -g babelify -e index.js -o bundle.js"
+    "build": "browserify -g babelify -e index.js -o bundle.js",
+    "dev": "watchify -g babelify -e index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
   "devDependencies": {
     "babel-preset-es2015": "6.18.0",
     "babelify": "7.3.0",
-    "browserify": "13.1.1",
-    "vueify": "9.2.4"
+    "browserify": "13.1.1"
   }
 }
