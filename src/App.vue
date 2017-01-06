@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import MultiSelect from 'vue-multiselect/lib/Multiselect.vue';
+import MultiSelect from './Multiselect.vue';
 
 export default {
   name: 'app',
