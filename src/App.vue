@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <label>Select option</label>
     <multi-select
       :value="selected"
